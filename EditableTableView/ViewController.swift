@@ -32,6 +32,7 @@ class ViewController: UITableViewController {
             
         }
     }
+    
     @IBAction func EditToggle(_ sender: UIButton) {
         if isEditing {
             setEditing(false, animated: true)
@@ -42,6 +43,14 @@ class ViewController: UITableViewController {
             sender.setTitle("Done", for: .normal)
         }
     }
+    
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+            if( editingStyle == .delete) {
+                countries.append(data.countries[indexPath.row].name)
+                data.remove(atIndex: indexPath.row)
+                tableView.deleteRows(at: [indexPath], with: .automatic)
+            }
+        }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return data.countries.count

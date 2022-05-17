@@ -16,6 +16,10 @@ class CountriesDB {
         countries.append(newCountry)
     }
     
+    func remove(atIndex: Int) {
+            countries.remove(at:atIndex)
+        }
+    
     
     init() {
         let country1 = Country(name: "Brazil")
