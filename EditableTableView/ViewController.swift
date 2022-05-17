@@ -17,6 +17,20 @@ class ViewController: UITableViewController {
         // Do any additional setup after loading the view.
     }
     
+    // Create a standard header that includes the returned text.
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection
+                                section: Int) -> String? {
+        
+       return "Countries"
+    }
+    // Create a standard footer that includes the returned text.
+    override func tableView(_ tableView: UITableView, titleForFooterInSection
+                                section: Int) -> String? {
+       return "End of countries list"
+    }
+    
+    
+    
     @IBAction func addCountry() {
         if (countries.count > 0) {
             // add random country
