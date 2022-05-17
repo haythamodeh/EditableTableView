@@ -13,6 +13,8 @@
 		3FFE4ABE2834490000D08A29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFE4ABC2834490000D08A29 /* Main.storyboard */; };
 		3FFE4AC02834490400D08A29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FFE4ABF2834490400D08A29 /* Assets.xcassets */; };
 		3FFE4AC32834490400D08A29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFE4AC12834490400D08A29 /* LaunchScreen.storyboard */; };
+		3FFE4ACB28344A7000D08A29 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE4ACA28344A7000D08A29 /* Country.swift */; };
+		3FFE4ACD28344B0900D08A29 /* CountriesDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE4ACC28344B0900D08A29 /* CountriesDB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3FFE4ABF2834490400D08A29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FFE4AC22834490400D08A29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FFE4AC42834490400D08A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFE4ACA28344A7000D08A29 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		3FFE4ACC28344B0900D08A29 /* CountriesDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesDB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				3FFE4AB8283448FF00D08A29 /* SceneDelegate.swift */,
 				3FFE4ABA283448FF00D08A29 /* ViewController.swift */,
 				3FFE4ABC2834490000D08A29 /* Main.storyboard */,
+				3FFE4ACA28344A7000D08A29 /* Country.swift */,
+				3FFE4ACC28344B0900D08A29 /* CountriesDB.swift */,
 				3FFE4ABF2834490400D08A29 /* Assets.xcassets */,
 				3FFE4AC12834490400D08A29 /* LaunchScreen.storyboard */,
 				3FFE4AC42834490400D08A29 /* Info.plist */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FFE4ACD28344B0900D08A29 /* CountriesDB.swift in Sources */,
+				3FFE4ACB28344A7000D08A29 /* Country.swift in Sources */,
 				3FFE4ABB283448FF00D08A29 /* ViewController.swift in Sources */,
 				3FFE4AB7283448FF00D08A29 /* AppDelegate.swift in Sources */,
 				3FFE4AB9283448FF00D08A29 /* SceneDelegate.swift in Sources */,
