@@ -10,8 +10,10 @@ import Foundation
 
 class Country {
     var name: String!
+    var points: Int
     
     init(name: String) {
         self.name = name
+        self.points = Int.random(in: 1...99)
     }
 }
